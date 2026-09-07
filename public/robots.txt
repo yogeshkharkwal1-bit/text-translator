@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://summarizeai.vercel.app/sitemap.xml

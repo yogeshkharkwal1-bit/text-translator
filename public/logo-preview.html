@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SummarizeAI - Logo Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Inter', system-ui, sans-serif; 
+      background: #020617; 
+      color: #f8fafc; 
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px;
+    }
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .logo-large {
+      width: 200px;
+      height: 200px;
+      filter: drop-shadow(0 0 30px rgba(14, 165, 233, 0.3));
+      transition: all 0.3s ease;
+    }
+    .logo-large:hover {
+      filter: drop-shadow(0 0 50px rgba(14, 165, 233, 0.5));
+      transform: scale(1.05);
+    }
+    .logo-medium {
+      width: 120px;
+      height: 120px;
+      filter: drop-shadow(0 0 20px rgba(14, 165, 233, 0.3));
+    }
+    .logo-small {
+      width: 60px;
+      height: 60px;
+      filter: drop-shadow(0 0 10px rgba(14, 165, 233, 0.3));
+    }
+    .logo-tiny {
+      width: 32px;
+      height: 32px;
+    }
+    .brand-name {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #0ea5e9 0%, #d946ef 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .brand-subtitle {
+      font-size: 1rem;
+      color: #94a3b8;
+      text-align: center;
+      max-width: 400px;
+    }
+    .sizes {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .size-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .size-label {
+      font-size: 0.75rem;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .variants {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .variant-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.3s ease;
+    }
+    .variant-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+    .dark-bg { background: #020617; }
+    .light-bg { background: #f8fafc; }
+    .gradient-bg { background: linear-gradient(135deg, #0ea5e9, #d946ef); }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .section {
+      width: 100%;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="/logo.svg" alt="SummarizeAI Logo" class="logo-large">
+    <div class="brand-name">SummarizeAI</div>
+    <div class="brand-subtitle">AI-Powered Text Summarizer, Translator & Email Analyzer</div>
+  </div>
+
+  <div class="section">
+    <h2>Logo Sizes</h2>
+    <div class="sizes">
+      <div class="size-item">
+        <img src="/logo.svg" alt="200px" class="logo-large">
+        <span class="size-label">200px</span>
+      </div>
+      <div class="size-item">
+        <img src="/logo.svg" alt="120px" class="logo-medium">
+        <span class="size-label">120px</span>
+      </div>
+      <div class="size-item">
+        <img src="/logo.svg" alt="60px" class="logo-small">
+        <span class="size-label">60px</span>
+      </div>
+      <div class="size-item">
+        <img src="/logo.svg" alt="32px" class="logo-tiny">
+        <span class="size-label">32px</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Background Variants</h2>
+    <div class="variants">
+      <div class="variant-item dark-bg">
+        <img src="/logo.svg" alt="Dark Background" class="logo-medium">
+        <span class="size-label">Dark</span>
+      </div>
+      <div class="variant-item light-bg">
+        <img src="/logo.svg" alt="Light Background" class="logo-medium">
+        <span class="size-label">Light</span>
+      </div>
+      <div class="variant-item gradient-bg">
+        <img src="/logo.svg" alt="Gradient Background" class="logo-medium">
+        <span class="size-label">Gradient</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
