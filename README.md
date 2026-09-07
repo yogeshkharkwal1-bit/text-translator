@@ -366,92 +366,7 @@ Content-Type: application/json
 5. **Calculate risk score** (0-100)
 6. **Return verdict** with confidence
 
----
 
-## 🚀 Deployment
-
-### Frontend (Vercel - Free)
-
-1. Go to [vercel.com](https://vercel.com)
-2. Click **Import Git Repository**
-3. Select `yogeshkharkwal1-bit/text-translator`
-4. **Framework Preset:** Vite
-5. **Build Command:** `npm run build`
-6. **Output Directory:** `dist`
-7. Click **Deploy**
-
-### Backend (Railway - Free)
-
-1. Go to [railway.app](https://railway.app)
-2. **New Project** → **Deploy from GitHub repo**
-3. Select repository
-4. **Root Directory:** `server`
-5. **Start Command:** `node index.js`
-6. Add Environment Variables:
-   - `NODE_ENV` = `production`
-   - `PORT` = `3001`
-7. Click **Deploy**
-
-### Alternative Backend (Render - Free)
-
-1. Go to [render.com](https://render.com)
-2. **New Web Service**
-3. **Build Command:** `cd server && npm install`
-4. **Start Command:** `cd server && node index.js`
-5. Free tier available!
-
----
-
-## 🔍 SEO Optimization
-
-### ✅ Implemented:
-- [x] Semantic HTML5 structure
-- [x] Meta title & description
-- [x] Open Graph tags (Facebook, LinkedIn)
-- [x] Twitter Card tags
-- [x] JSON-LD structured data (Schema.org)
-- [x] XML Sitemap
-- [x] Robots.txt
-- [x] Canonical URL
-- [x] Mobile-first responsive design
-- [x] Fast loading (Vite optimization)
-- [x] Security headers (X-Frame-Options, X-XSS-Protection)
-
-### 📈 To Rank Higher:
-1. **Submit to Google Search Console**
-   - Visit [search.google.com/search-console](https://search.google.com/search-console)
-   - Add domain & verify
-   - Submit sitemap.xml
-
-2. **Submit to Bing Webmaster Tools**
-   - Visit [bing.com/webmasters](https://bing.com/webmasters)
-   - Add site
-
-3. **Create Quality Backlinks**
-   - Share on social media
-   - Post on Reddit, Hacker News, Dev.to
-   - Write guest posts
-
-4. **Content Marketing**
-   - Write blog posts about AI tools
-   - Create video tutorials
-   - Share on LinkedIn
-
----
-
-## 🔒 Security
-
-| Feature | Status |
-|---------|--------|
-| No API keys in frontend | ✅ |
-| Environment variables for secrets | ✅ |
-| Input validation on all endpoints | ✅ |
-| CORS protection | ✅ |
-| Security headers (X-Frame-Options, etc.) | ✅ |
-| No password/credential storage | ✅ |
-| HTTPS enforced (Vercel/Railway) | ✅ |
-
----
 
 ## 🤝 Contributing
 
@@ -465,17 +380,6 @@ Contributions are welcome! Here's how:
 
 ---
 
-## 📄 License
-
-MIT License - Free to use and modify!
-
-Copyright (c) 2024 Yogesh Singh Kharkwal
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
----
 
 ## 👨‍💻 Author
 
